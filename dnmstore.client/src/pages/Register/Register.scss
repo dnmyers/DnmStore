@@ -1,0 +1,43 @@
+.register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.register-form-card {
+    max-width: 30em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.register-form-body {
+    padding: 0 2em !important;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+}
+
+.register-button {
+    padding: 0.5em 1.5em !important;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s !important;
+
+    &:hover {
+        transform: scale(1.1) !important;
+    }
+}
+
+.login-link {
+    text-decoration: none !important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s !important;
+
+    &:hover {
+        background-color: transparent !important;
+        text-decoration: underline !important;
+        transform: scale(1.1);
+    }
+}
