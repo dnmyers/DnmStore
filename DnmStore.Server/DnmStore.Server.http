@@ -1,0 +1,6 @@
+@DnmStore.Server_HostAddress = http://localhost:7197
+
+GET {{DnmStore.Server_HostAddress}}/authorization/token
+Accept: application/json
+
+###
